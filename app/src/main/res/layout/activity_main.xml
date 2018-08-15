@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/create"
+        style="@style/tv"
+        android:text="创建操作符" />
+
+    <TextView
+        android:id="@+id/translate"
+        style="@style/tv"
+        android:text="转换操作符" />
+
+    <TextView
+        android:id="@+id/compose"
+        style="@style/tv"
+        android:text="组合操作符" />
+
+    <TextView
+        android:id="@+id/function"
+        style="@style/tv"
+        android:text="功能操作符" />
+
+    <TextView
+        android:id="@+id/filter"
+        style="@style/tv"
+        android:text="过滤操作符" />
+</LinearLayout>
