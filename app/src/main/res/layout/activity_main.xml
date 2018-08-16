@@ -28,4 +28,9 @@
         android:id="@+id/filter"
         style="@style/tv"
         android:text="过滤操作符" />
+
+    <TextView
+        android:id="@+id/condition"
+        style="@style/tv"
+        android:text="条件操作符" />
 </LinearLayout>

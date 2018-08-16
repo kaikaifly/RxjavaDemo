@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/map"
+        style="@style/tv"
+        android:text="map" />
+
+    <TextView
+        android:id="@+id/flatMap"
+        style="@style/tv"
+        android:text="flatMap" />
+
+    <TextView
+        android:id="@+id/concatMap"
+        style="@style/tv"
+        android:text="concatMap" />
+
+    <TextView
+        android:id="@+id/buffer"
+        style="@style/tv"
+        android:text="buffer" />
+
+    <TextView
+        android:id="@+id/groupBy"
+        style="@style/tv"
+        android:text="groupBy" />
+    <TextView
+        android:id="@+id/scan"
+        style="@style/tv"
+        android:text="scan" />
+    <TextView
+        android:id="@+id/window"
+        style="@style/tv"
+        android:text="window" />
+</LinearLayout>

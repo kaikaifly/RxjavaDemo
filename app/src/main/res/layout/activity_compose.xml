@@ -5,15 +5,52 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/map"
+        android:id="@+id/concat"
         style="@style/tv"
-        android:text="map" />concatMap
+        android:text="concat" />
+
     <TextView
-        android:id="@+id/flatMap"
+        android:id="@+id/concatArray"
         style="@style/tv"
-        android:text="flatMap" />
+        android:text="concatArray" />
+
     <TextView
-        android:id="@+id/concatMap"
+        android:id="@+id/merge"
         style="@style/tv"
-        android:text="concatMap" />
+        android:text="merge" />
+
+    <TextView
+        android:id="@+id/mergeArray"
+        style="@style/tv"
+        android:text="mergeArray" />
+
+    <TextView
+        android:id="@+id/zip"
+        style="@style/tv"
+        android:text="zip" />
+
+    <TextView
+        android:id="@+id/combineLatest"
+        style="@style/tv"
+        android:text="combineLatest" />
+
+    <TextView
+        android:id="@+id/reduce"
+        style="@style/tv"
+        android:text="reduce" />
+
+    <TextView
+        android:id="@+id/collect"
+        style="@style/tv"
+        android:text="collect/collectInto" />
+
+    <TextView
+        android:id="@+id/startWith"
+        style="@style/tv"
+        android:text="startWith/startWithArray" />
+
+    <TextView
+        android:id="@+id/count"
+        style="@style/tv"
+        android:text="count" />
 </LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/all"
+        style="@style/tv"
+        android:text="all" />
+
+    <TextView
+        android:id="@+id/takeWhile"
+        style="@style/tv"
+        android:text="takeWhile" />
+
+    <TextView
+        android:id="@+id/skipWhile"
+        style="@style/tv"
+        android:text="skipWhile" />
+
+    <TextView
+        android:id="@+id/takeUntil"
+        style="@style/tv"
+        android:text="takeUntil" />
+
+    <TextView
+        android:id="@+id/skipUntil"
+        style="@style/tv"
+        android:text="skipUntil" />
+
+    <TextView
+        android:id="@+id/sequenceEqual"
+        style="@style/tv"
+        android:text="sequenceEqual" />
+
+    <TextView
+        android:id="@+id/contains"
+        style="@style/tv"
+        android:text="contains" />
+
+    <TextView
+        android:id="@+id/isEmpty"
+        style="@style/tv"
+        android:text="isEmpty" />
+
+    <TextView
+        android:id="@+id/amb"
+        style="@style/tv"
+        android:text="amb" />
+
+    <TextView
+        android:id="@+id/defaultIfEmpty"
+        style="@style/tv"
+        android:text="defaultIfEmpty" />
+
+</LinearLayout>

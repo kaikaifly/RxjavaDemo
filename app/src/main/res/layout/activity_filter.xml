@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/filter"
+        style="@style/tv"
+        android:text="filter" />
+
+    <TextView
+        android:id="@+id/ofType"
+        style="@style/tv"
+        android:text="ofType" />
+
+    <TextView
+        android:id="@+id/skip"
+        style="@style/tv"
+        android:text="skip/skipLast" />
+
+    <TextView
+        android:id="@+id/distinct"
+        style="@style/tv"
+        android:text="distinct" />
+
+    <TextView
+        android:id="@+id/distinctUntilChanged"
+        style="@style/tv"
+        android:text="distinctUntilChanged" />
+
+    <TextView
+        android:id="@+id/take"
+        style="@style/tv"
+        android:text="take" />
+
+    <TextView
+        android:id="@+id/debounce"
+        style="@style/tv"
+        android:text="debounce" />
+
+    <TextView
+        android:id="@+id/firstElement_lastElement"
+        style="@style/tv"
+        android:text="firstElement/lastElement" />
+
+    <TextView
+        android:id="@+id/elementAt"
+        style="@style/tv"
+        android:text="elementAt" />
+
+</LinearLayout>

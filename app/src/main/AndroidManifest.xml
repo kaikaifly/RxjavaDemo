@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateOperationActivity" />
+        <activity android:name=".TranslateOperationActivity" />
         <activity android:name=".ComposeOperationActivity" />
+        <activity android:name=".FunctionOperationActivity" />
+        <activity android:name=".FilterOperationActivity" />
+        <activity android:name=".ConditionOperationActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/delay"
+            style="@style/tv"
+            android:text="delay" />
+
+        <TextView
+            android:id="@+id/doOnEach"
+            style="@style/tv"
+            android:text="doOnEach" />
+
+        <TextView
+            android:id="@+id/doOnNext"
+            style="@style/tv"
+            android:text="doOnNext" />
+
+        <TextView
+            android:id="@+id/doAfterNext"
+            style="@style/tv"
+            android:text="doAfterNext" />
+
+        <TextView
+            android:id="@+id/doOnComplete"
+            style="@style/tv"
+            android:text="doOnComplete" />
+
+        <TextView
+            android:id="@+id/doOnError"
+            style="@style/tv"
+            android:text="doOnError" />
+
+        <TextView
+            android:id="@+id/doOnSubscribe"
+            style="@style/tv"
+            android:text="doOnSubscribe" />
+
+        <TextView
+            android:id="@+id/doOnDispose"
+            style="@style/tv"
+            android:text="doOnDispose" />
+
+        <TextView
+            android:id="@+id/doOnLifecycle"
+            style="@style/tv"
+            android:text="doOnLifecycle" />
+
+        <TextView
+            android:id="@+id/doOnTerminate_doAfterTerminate"
+            style="@style/tv"
+            android:text="doOnTerminate/doAfterTerminate" />
+
+        <TextView
+            android:id="@+id/doFinally"
+            style="@style/tv"
+            android:text="doFinally" />
+
+        <TextView
+            android:id="@+id/onErrorReturn"
+            style="@style/tv"
+            android:text="onErrorReturn" />
+
+        <TextView
+            android:id="@+id/onErrorResumeNext"
+            style="@style/tv"
+            android:text="onErrorResumeNext" />
+
+        <TextView
+            android:id="@+id/onExceptionResumeNext"
+            style="@style/tv"
+            android:text="onExceptionResumeNext" />
+
+        <TextView
+            android:id="@+id/retry"
+            style="@style/tv"
+            android:text="retry" />
+
+        <TextView
+            android:id="@+id/retryUntil"
+            style="@style/tv"
+            android:text="retryUntil" />
+
+        <TextView
+            android:id="@+id/retryWhen"
+            style="@style/tv"
+            android:text="retryWhen" />
+
+        <TextView
+            android:id="@+id/repeat"
+            style="@style/tv"
+            android:text="repeat" />
+
+        <TextView
+            android:id="@+id/repeatWhen"
+            style="@style/tv"
+            android:text="repeatWhen" />
+
+        <TextView
+            android:id="@+id/subscribeOn"
+            style="@style/tv"
+            android:text="subscribeOn" />
+        <TextView
+            android:id="@+id/observeOn"
+            style="@style/tv"
+            android:text="observeOn" />
+    </LinearLayout>
+</ScrollView>
